@@ -15,7 +15,7 @@ highlight   JobLine      cterm=bold           ctermfg=113    ctermbg=235
 highlight   SuggestBox   cterm=bold           ctermfg=113    ctermbg=235
 highlight   WildMenu     cterm=bold           ctermfg=113    ctermbg=235
 
-highlight   CurrLine     cterm=none           ctermfg=233   ctermbg=187
+highlight   CurrLine     cterm=none           ctermfg=254   ctermbg=237
 highlight   OtherLine    cterm=none           ctermfg=245   ctermbg=233
 highlight   Selected     cterm=none           ctermfg=233   ctermbg=156
 highlight   LineNr       cterm=none           ctermfg=114   ctermbg=233
