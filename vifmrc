@@ -196,7 +196,7 @@ filetype {*.wav,*.mp3,*.flac,*.m4a,*.wma,*.ape,*.ac3,*.og[agx],*.spx,*.opus},
        \ ffplay -nodisp -autoexit %c,
        \ {Play using MPlayer}
        \ mplayer %f,
-       \ mocp -l %f,
+       \ mocp -l %f && /home/trekka/.moc/scripts/display.sh,
 fileviewer {*.mp3},<audio/mpeg> mp3info
 fileviewer {*.flac},<audio/flac> soxi
 
@@ -205,6 +205,7 @@ filextype {*.avi,*.mp4,*.wmv,*.dat,*.3gp,*.ogv,*.mkv,*.mpg,*.mpeg,*.vob,
           \*.fl[icv],*.m2v,*.mov,*.webm,*.ts,*.mts,*.m4v,*.r[am],*.qt,*.divx,
           \*.as[fx]},
          \<video/*>
+	\ gnome-terminal --geometry=58x4+1020+50 -t "mpv player" -x mpv --screen=0 --geometry=1920x1080+320+240, 
         \ celluloid --new-window %f,
         \ {View using ffplay}
         \ ffplay -fs -autoexit %f,
@@ -469,9 +470,9 @@ nnoremap ,w :set wrap!<cr>
 nnoremap <f3> :!less %f<cr>
 nnoremap <f4> :edit<cr>
 nnoremap <f5> :copy<cr>
-nnoremap <f6> :move<cr>
+nnoremap <f6> :!vim<cr>
 nnoremap <f7> :mkdir<space>
-nnoremap <f8> :delete<cr>
+nnoremap <f8> :!id3v2<space>-a<space>"artist"<space>-t<space>"song"<space>
 
 " Midnight commander alike mappings
 " Open current directory in the other pane
