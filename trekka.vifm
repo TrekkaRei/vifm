@@ -9,11 +9,11 @@ highlight   TopLine      cterm=bold           ctermfg=250   ctermbg=none
 highlight   TopLineSel   cterm=bold           ctermfg=236   ctermbg=113
 
 highlight   CmdLine      cterm=none           ctermfg=252   ctermbg=none
-highlight   ErrorMsg     cterm=bold           ctermfg=125   ctermbg=234
+highlight   ErrorMsg     cterm=bold           ctermfg=125   ctermbg=none
 highlight   StatusLine   cterm=bold           ctermfg=125    ctermbg=233
 highlight   JobLine      cterm=bold           ctermfg=113    ctermbg=236
-highlight   SuggestBox   cterm=bold           ctermfg=113    ctermbg=236
-highlight   WildMenu     cterm=bold           ctermfg=113    ctermbg=236
+highlight   SuggestBox   cterm=bold           ctermfg=113    ctermbg=none
+highlight   WildMenu     cterm=bold           ctermfg=113    ctermbg=233
 
 highlight   CurrLine     cterm=underline      ctermfg=250   ctermbg=none
 highlight   OtherLine    cterm=none           ctermfg=240   ctermbg=none
